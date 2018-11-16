@@ -1323,7 +1323,7 @@ exports.commands = {
 			target = target.map(data => {
 				return data.trim();
 			});
-			if (user.console.curPane && !['pokemoncenter', 'pc'].includes(user.console.curPane)) return;
+			if (user.console.curPane', 'pc'].includes(user.console.curPane)) return;
 			if (user.console.curPane !== 'pc') user.console.curPane = 'pc';
 			if (target[2] === 'close') {
 				user.console.curPane = 'pokemoncenter';
